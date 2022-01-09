@@ -12,7 +12,6 @@ reload.addEventListener("click", () => {
   location.reload();
 });
 function sumbitHandler(event) {
-  console.log(submittedYear);
   if (submittedYear.value === "") {
     return;
   }
